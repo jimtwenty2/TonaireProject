@@ -23,11 +23,13 @@ cd TonaireProject
   DevExpress.Printing.vXX.X.Core.dll
 
 4 Configure Database ( MSSQLSERVER )
+```
 <connectionStrings>
     <add name="saledb"
          connectionString="Data Source=YOUR_SERVER;Initial Catalog=saledb;uid=YOUR_USERNAME; password=YOUR_PASSWORD; encrypt=false;"
          providerName="System.Data.SqlClient" />
 </connectionStrings>
+```
 - Place this in App.config (project root).
 
 5. Create and seed the database

@@ -42,3 +42,17 @@ Click Generate Report to view data in DevExpress XtraReport.
 
 7. Export Report
 Use the Export button to save the report as PDF. The file is stored in ProjectPdf folder inside the project root.
+
+## Screenshots
+
+### Application
+
+UI ![Main Form](screenshots/app.png) 
+
+### Sample Report 
+
+![Sales Report](screenshots/xreport.png) 
+
+### Sample Pdf 
+
+![Pdf Report](screenshots/pdf.png)

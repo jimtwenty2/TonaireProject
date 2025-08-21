@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DevExpress.Reporting.Core" Version="25.1.4" />
+    <PackageReference Include="DevExpress.Win.Design" Version="25.1.4" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v25.1">
+      <HintPath>C:\Program Files\DevExpress 25.1\Components\Bin\Framework\DevExpress.Data.v25.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v25.1.Core">
+      <HintPath>C:\Program Files\DevExpress 25.1\Components\Bin\Framework\DevExpress.Printing.v25.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v25.1">
+      <HintPath>C:\Program Files\DevExpress 25.1\Components\Bin\Framework\DevExpress.XtraReports.v25.1.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
